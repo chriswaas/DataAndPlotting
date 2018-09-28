@@ -34,4 +34,11 @@ function output(arr::Array{Float64, 2}, filename::String)
   h5write(filename, "data", arr)
 end
 
+
+#Read data from file
+export input
+function input(filename::String)
+  arr = h5read(filename, "data")
+end
+
 end # module
