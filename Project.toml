@@ -2,3 +2,6 @@ name = "DataAndPlotting"
 uuid = "21c72530-c341-11e8-18c7-357788f5cee9"
 authors = ["Christopher Waas <43119886+chriswaas@users.noreply.github.com>"]
 version = "0.1.0"
+
+[deps]
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
